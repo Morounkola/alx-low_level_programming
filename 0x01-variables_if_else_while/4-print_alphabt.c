@@ -10,7 +10,7 @@ int main(void)
 {
 	char letz;
 
-	for (letz ='a'; letz <= 'z'; letz++)
+	for (letz = 'a'; letz <= 'z'; letz++)
 	{
 		if ((letz != 'e') && (letz != 'q'))
 			putchar(letz);
