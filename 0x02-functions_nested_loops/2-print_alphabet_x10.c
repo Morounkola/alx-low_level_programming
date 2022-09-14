@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * Task_2 10x alphabet
- *
- * Description: a program that prints a to z ten times
+ * main - Task_2 10x alphabet
+ * Description: a program that prints alphabets ten times
  * with a new line in between
- *
  * Return: Always 0.
  */
 
