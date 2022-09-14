@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - print alphabets in lowercase
+ * Task_1 Alphabet Game - Entry point
+ *
+ * Description: a function that prints alphabets in lowercase
  *
  * Return: Always 0.
  */
