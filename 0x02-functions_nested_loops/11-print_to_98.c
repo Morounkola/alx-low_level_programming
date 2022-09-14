@@ -10,13 +10,19 @@
 
 void print_to_98(int n)
 {
-	int num = n;
+	int num;
+
+	num = n;
 
 	while (num < 98)
 	{
-		_putchar('%d, ', num);
+		_putchar(num);
+		_putchar(',');
+		_putchar(' ');
+		num++;
 	}
-	_putchar('%d', 98);
+	_putchar('9');
+	_putchar('8');
 
 	return (0);
 }
