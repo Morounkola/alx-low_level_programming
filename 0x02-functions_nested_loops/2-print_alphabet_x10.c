@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Task_2 10x alphabet
+ * print_alphabet_x10 - entry point
  * Description: a program that prints alphabets ten times
  * with a new line in between
  * Return: Always 0.
