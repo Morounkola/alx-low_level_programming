@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Task_1 Alphabet Game - Entry point
+ * print_alphabet - Entry point
  *
  * Description: a function that prints alphabets in lowercase
  *
