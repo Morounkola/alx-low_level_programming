@@ -19,7 +19,7 @@ void print_to_98(int n)
 	{
 		while (num < 98)
 		{
-			priintf("%d", num);
+			printf("%d", num);
 			printf(", ");
 			num++;
 		}
