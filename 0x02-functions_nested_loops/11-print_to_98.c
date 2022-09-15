@@ -5,7 +5,7 @@
  * print_to_98 - Entry point
  *
  * Description - Print number from n passed to 98
- *
+ * @n: integer to be passed to the function
  * Return: void
  */
 
