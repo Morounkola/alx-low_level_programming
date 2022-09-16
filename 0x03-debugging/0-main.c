@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * positive_or_negative - Entry point
+ * main - Entry point
  *
  * Description: Test positive_or_negative() function
  *
