@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * mult - main entry
+ * mul - main entry
  * @a: first number to be multiplied with b
  * @b: second number to be multiplied with a
  * Description: determines the product of two numbers
