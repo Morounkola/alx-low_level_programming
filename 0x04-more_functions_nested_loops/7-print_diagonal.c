@@ -1,30 +1,29 @@
 #include "main.h"
 
 /**
- * print_diagonal - Task 7 main entry
- * @n: number of times / to be printed
- * Description: print / n times diagonally
+ * print_diagonal - diagonal lines made of backslashes
+ * @n: number of \ to be printed
  * Return: void
  */
 
 void print_diagonal(int n)
 {
-		int a = 0;
-		int k = 0;
+	int i = 0, ii;
 
-		while (a < n && n > 0)
+	while (i < n && n > 0)
+	{
+		ii = 0;
+		while (ii < i)
 		{
-			while (k < a)
-			{
-				_putchar(' ');
-				k++
-			}
-			_putchar('\\');
-			_putchar('\n');
-			a++;
+			_putchar(' ');
+			ii++;
 		}
-		if (a == 0)
-		{
-			_putchar('\n');
-		}
+		_putchar('\\');
+		_putchar('\n');
+		i++;
+											}
+	if (i == 0)
+	{
+		_putchar('\n');
+	}
 }
