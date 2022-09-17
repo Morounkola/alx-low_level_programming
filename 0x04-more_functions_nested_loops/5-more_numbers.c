@@ -22,7 +22,7 @@ void more_numbers(void)
 			j = b;
 			if (b > 9)
 			{
-				j = b
+				//j = b
 				_putchar('1');
 				j = b % 10;
 			}
