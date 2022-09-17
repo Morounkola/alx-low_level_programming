@@ -3,18 +3,18 @@
 /**
  * print_square - Task 8 entry
  * Description: print square of size input passed
- * @size: dimension of square to be printed
+ * @n: dimension of square to be printed
  * Return: void
  */
 
-void print_square(int size)
+void print_square(int n)
 {
 	int i = 0; ii;
 
-	while (i < size && size > 0)
+	while (i < n && n > 0)
 	{
 		ii = 0;
-		while (ii <  size)
+		while (ii < n)
 		{
 			_putchar('#');
 			ii++;
