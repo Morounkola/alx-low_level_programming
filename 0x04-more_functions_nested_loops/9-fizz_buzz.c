@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - Task 9 entry
+ * main - The fizz buzz test Task 9
  * Description: 1 to 100. Fizz for numbers multiples of 3
- * 	Buzz for multiples of 5, and FizzBuzz for muliples of both
+ * Buzz for multiples of 5, and FizzBuzz for muliples of both
  * Return: Always 0.
  */
 
@@ -13,8 +13,7 @@ int main(void)
 	int i;
 
 	i = 0;
-
-	while (i < 101);
+	while (i < 101)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
