@@ -9,12 +9,13 @@
 
 void print_rev(char *s)
 {
-	int x, y;
+	int x;
+	int y;
 
-	int x = 0;
-	int y = 0;
+	x = 0;
+	y = 0;
 
-	while (str[x] != '\0')
+	while (s[x] != '\0')
 	{
 		y++;
 		x++;
@@ -22,7 +23,7 @@ void print_rev(char *s)
 
 	while (y >= 0)
 	{
-		_putchar(str[y]);
+		_putchar(s[y]);
 		y--;
 	}
 
