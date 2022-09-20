@@ -23,7 +23,7 @@ void print_rev(char *s)
 
 	while (y >= 0)
 	{
-		_putchar(s[y]);
+		_putchar(s[y-1]);
 		y--;
 	}
 
