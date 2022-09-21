@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * strcpy - Task 9 main entry
+ * _strcpy - Task 9 main entry
  * Description: function that copies from src to dest
  * @dest: destinationr
  * @src: source
