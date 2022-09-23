@@ -2,8 +2,9 @@
 
 /**
  * cap_string - main entry - Task 6
- * Description: function that capitalizes every first letter of a word in a string
- * separators of words are:  space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }.
+ * Description: function that capitalizes first letter of words in a string
+ * separators of words are:  space, tabulation, new line, ,, ;, ., !, ?,
+ * ", (, ), {, and }.
  * @s: pointer to string.
  * Return: pointer to s.
  */
@@ -11,16 +12,16 @@
 char *cap_string(char *s)
 {
 	int count;
-	
+
 	count = 0;
-	
+
 	while (s[count] != '\0')
 	{
 		if (s[0] >= 97 && s[0] <= 122)
 		{
 			s[0] = s[0] - 32;
 		}
-		
+
 		if (s[count] == ' ' || s[count] == '\t' || s[count] == '\n'
 			|| s[count] == ',' || s[count] == ';' || s[count] == '.'
 			|| s[count] == '.' || s[count] == '!' || s[count] == '?'
